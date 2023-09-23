@@ -348,7 +348,7 @@ Pre-loader Style
   height: 16px;
   top: 12px;
   left: 15px;
-  background: #25b9f3;
+  background: #019be9;
   border-radius: 50%;
   -webkit-transform: translateX(0);
   transform: translateX(0);
@@ -371,7 +371,7 @@ Pre-loader Style
   width: 16px;
   height: 16px;
   margin-left: 16px;
-  background: #25b9f3;
+  background: #019be9;
   border-radius: 50%;
 }
 
@@ -475,16 +475,25 @@ Header Style
 }
 
 .header-area .main-nav .logo h1 {
-  line-height: 100px;
-  font-size: 28px;
+  /* line-height: 100px; */
+  /* font-size: 28px; */
+  font-size: 13px;
   text-transform: uppercase;
-  color: #1e1e1e;
+  /* color: #1e1e1e; */
+  color: #0796dd;
   font-weight: 700;
-  letter-spacing: 2px;
+  /* letter-spacing: 2px; */
 }
 
 .background-header .main-nav .logo h1 {
-  line-height: 80px;
+  /* line-height: 80px; */
+}
+.header-area .main-nav .logo {
+  margin-top: 8px;
+}
+
+.background-header .main-nav .logo {
+  margin-top: 0;
 }
 
 .header-area .main-nav ul.nav {
