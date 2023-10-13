@@ -854,12 +854,14 @@ Banner Style
 }
 
 .main-banner .owl-dots {
+  /* display: none; */
   position: absolute;
   bottom: 60px;
   left: 20%;
 }
 
 .main-banner .owl-dots .owl-dot {
+  /* display: none; */
   width: 10px;
   height: 10px;
   background-color: #fff;
@@ -869,6 +871,7 @@ Banner Style
 }
 
 .main-banner .owl-dots .active {
+  /* display: none; */
   background-color: #0193dd;
 }
 
